@@ -7,7 +7,7 @@ Some easy-to-use Hugo shortcodes.
 Done.
 
 
-# Slides
+## Slides
 Copy the slider.html file into your shortcode folder. 
 Add your numbered (e.g. Slide1.png, Slide2.png...) slide .pngs to a folder named 'slides' in the same directory as your page. Use the shortcode, like below:
 ```
@@ -18,3 +18,5 @@ The shortcode looks for a folder named 'slides' by deafult. If your folder has a
 ``` 
 {{< slider "myPhotoFolder">}}
 ```
+## Thumbnails
+Calling the thumbnail shortcode will print cards linking to each subpage, including a thumbnail and the page title.
