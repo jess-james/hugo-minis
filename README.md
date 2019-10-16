@@ -9,7 +9,12 @@ Done.
 
 # Slides
 Copy the slider.html file into your shortcode folder. 
-Add your slide .pngs to a folder in the same directory as your page. The shortcode looks for a folder named 'slides' by deafult. If your folder has another name, pass the folder name as a parameter like below:
+Add your numbered (e.g. Slide1.png, Slide2.png...) slide .pngs to a folder named 'slides' in the same directory as your page. Use the shortcode, like below:
+```
+{{<slider>}}
+```
+  
+The shortcode looks for a folder named 'slides' by deafult. If your folder has another name, pass the folder name as a parameter like below:
 ``` 
 {{< slider "myPhotoFolder">}}
 ```
